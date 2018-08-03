@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.TestCases.IPS_WorkingFormTest">
+        <methods>
+          <include name="TestForm_IPSonDeputation"/>
+          <include name="TestForm_IPS_Form_ADGandDG"/>
+          <include name="TestForm_IPS_ExceptADGandDG_WithoutDual"/>
+          <include name="TestForm_IPS_ExceptADGandDG"/>
+          <include name="steup"/>
+        </methods>
+      </class> <!-- com.TestCases.IPS_WorkingFormTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

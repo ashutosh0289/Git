@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SPARROW Multiple Services Application Automation Test Suite">
+
+	
+
+
+	<test name="flow Test for all Services">
+		<classes>
+			   
+
+			   <class name="com.TestCases.WorkflowTest_ServicesWar"></class>
+			    <class name="com.TestCases.NRCTest_ServicesWar"></class> 
+			    <class name="com.TestCases.TrainingFormTest_ServicesWar"></class> 
+				<class name="com.TestCases.LeaveFormTest_ServicesWar"></class> 
+				
+				
+		</classes>
+	</test>
+</suite>

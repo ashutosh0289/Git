@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="4" failed="0" total="4" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="479" started-at="2018-08-03T08:53:27Z" finished-at="2018-08-03T08:53:27Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="479" started-at="2018-08-03T08:53:27Z" finished-at="2018-08-03T08:53:27Z">
+      <class name="com.TestCases.IPS_WorkingFormTest">
+        <test-method status="FAIL" signature="steup()[pri:0, instance:com.TestCases.IPS_WorkingFormTest@d8355a8]" name="steup" is-config="true" duration-ms="0" started-at="2018-08-03T14:23:27Z" finished-at="2018-08-03T14:23:27Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.TestBase.TestBase.initialization(TestBase.java:56)
+	at com.TestCases.IPS_WorkingFormTest.steup(IPS_WorkingFormTest.java:56)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:653)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- steup -->
+        <test-method status="SKIP" signature="TestForm_IPS_Form_ADGandDG(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.TestCases.IPS_WorkingFormTest@d8355a8]" name="TestForm_IPS_Form_ADGandDG" duration-ms="0" started-at="2018-08-03T14:23:27Z" data-provider="getTestData" finished-at="2018-08-03T14:23:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IPS]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[priyanshi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[eoffice]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestForm_IPS_Form_ADGandDG -->
+        <test-method status="SKIP" signature="TestForm_IPS_ExceptADGandDG(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.TestCases.IPS_WorkingFormTest@d8355a8]" name="TestForm_IPS_ExceptADGandDG" duration-ms="0" started-at="2018-08-03T14:23:27Z" data-provider="getTestData" finished-at="2018-08-03T14:23:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IPS]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[priyanshi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[eoffice]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestForm_IPS_ExceptADGandDG -->
+        <test-method status="SKIP" signature="steup()[pri:0, instance:com.TestCases.IPS_WorkingFormTest@d8355a8]" name="steup" is-config="true" duration-ms="0" started-at="2018-08-03T14:23:27Z" finished-at="2018-08-03T14:23:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- steup -->
+        <test-method status="SKIP" signature="TestForm_IPSonDeputation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.TestCases.IPS_WorkingFormTest@d8355a8]" name="TestForm_IPSonDeputation" duration-ms="15" started-at="2018-08-03T14:23:27Z" data-provider="getTestData" finished-at="2018-08-03T14:23:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IPS]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[priyanshi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[eoffice]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestForm_IPSonDeputation -->
+        <test-method status="SKIP" signature="steup()[pri:0, instance:com.TestCases.IPS_WorkingFormTest@d8355a8]" name="steup" is-config="true" duration-ms="0" started-at="2018-08-03T14:23:27Z" finished-at="2018-08-03T14:23:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- steup -->
+        <test-method status="SKIP" signature="steup()[pri:0, instance:com.TestCases.IPS_WorkingFormTest@d8355a8]" name="steup" is-config="true" duration-ms="0" started-at="2018-08-03T14:23:27Z" finished-at="2018-08-03T14:23:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- steup -->
+        <test-method status="SKIP" signature="TestForm_IPS_ExceptADGandDG_WithoutDual(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.TestCases.IPS_WorkingFormTest@d8355a8]" name="TestForm_IPS_ExceptADGandDG_WithoutDual" duration-ms="0" started-at="2018-08-03T14:23:27Z" data-provider="getTestData" finished-at="2018-08-03T14:23:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IPS]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[priyanshi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[eoffice]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestForm_IPS_ExceptADGandDG_WithoutDual -->
+      </class> <!-- com.TestCases.IPS_WorkingFormTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

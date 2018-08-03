@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SPARROW Multiple Services Application Automation Test Suite">
+
+	
+
+
+	<test name="Workflow Test for all forms">
+		<classes>
+			   
+
+			   <!-- <class name="practice.LoginTestWithMultipleUser"></class> -->
+			    <!-- <class name="com.testCases.WorkflowTest_SerivesWar"></class>  -->
+			    <class name="com.TestCases.WorkflowTest_ServicesWar"></class> 
+				<!-- <class name="com.testCases.TestNRC_AllServices"></class>  -->
+				<!-- <class name="com.testCases.LeaveFormTest_AllServices"></class> -->
+				<!-- <class name="com.testCases.TestTrainingForm"></class> -->
+		</classes>
+	</test>
+</suite>

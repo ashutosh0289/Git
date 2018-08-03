@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SPARROW Multiple Services Application Automation Test Suite]">
+  <test name="flow Test for all Services(failed)">
+    <classes>
+      <class name="com.TestCases.WorkflowTest_ServicesWar">
+        <methods>
+          <include name="TearDown"/>
+          <include name="steup"/>
+        </methods>
+      </class> <!-- com.TestCases.WorkflowTest_ServicesWar -->
+      <class name="com.TestCases.NRCTest_ServicesWar">
+        <methods>
+          <include name="TestNRCFlowWithUpload" invocation-numbers="1"/>
+          <include name="TearDown"/>
+          <include name="steup"/>
+        </methods>
+      </class> <!-- com.TestCases.NRCTest_ServicesWar -->
+      <class name="com.TestCases.LeaveFormTest_ServicesWar">
+        <methods>
+          <include name="steup"/>
+        </methods>
+      </class> <!-- com.TestCases.LeaveFormTest_ServicesWar -->
+      <class name="com.TestCases.TrainingFormTest_ServicesWar">
+        <methods>
+          <include name="steup"/>
+          <include name="TestTrainingFlow" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- com.TestCases.TrainingFormTest_ServicesWar -->
+    </classes>
+  </test> <!-- flow Test for all Services(failed) -->
+</suite> <!-- Failed suite [SPARROW Multiple Services Application Automation Test Suite] -->
